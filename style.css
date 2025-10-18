@@ -9,14 +9,26 @@ html,body{
 }
 .box1{
     text-transform: capitalize;
+    padding-left: 20em;
 }
 h3{
     color: #3B0119;
-    padding-top: 10px;
+    padding-left: 10px ;
 }
 p{
     color: #2378C1;
 }
 label{
     color:#ee9ed1;
+}
+button{
+    text-transform: capitalize;
+    font-size: 0.6em;
+    padding: 1em 4em ;
+    margin-left: 7em;
+    color: aliceblue;
+    background-color: #2378C1;
+    border: none;
+    border-radius: 2em;
+    
 }
