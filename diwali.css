@@ -1,0 +1,72 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.diwali{
+    height: 60em;
+    background-color: rgb(22, 22, 22);
+}
+.card{
+    height: 30em;
+    width: 20em;
+    margin-left:20em ;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://i.pinimg.com/1200x/e8/22/4a/e8224ab0e8fb63c65401581ccc36b120.jpg");
+    animation: changes;
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+}
+@keyframes changes{
+    0%{background-image: url("https://i.pinimg.com/736x/71/31/3e/71313e85fb4d6b5585d287a9ca0763a4.jpg");}
+    25%{background-image: url("https://i.pinimg.com/736x/22/85/38/228538c9ebc6d56f737aa76f27fe0a18.jpg");}
+    50%{background-image: url("https://i.pinimg.com/736x/59/4c/ca/594cca974c054a2eceeb9fbd6f2b5fca.jpg");}
+}
+.png>img{
+    width: 5em;
+    height: 5em;
+    animation: light ;
+    margin-top:12em;
+    margin-left: 1em;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    transition: all ease 2s
+    
+}
+@keyframes light{
+    0%{position: absolute; left:-20em}
+    25%{transform:scale(1.1);}
+    
+}
+.png1,img{
+    width: 5em;
+    height: 5em;
+    animation: light ;
+    margin-top:-3em;
+    margin-left: 7em;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+.card>h1{
+    text-transform: capitalize;
+    font-family: style1;
+    text-align: center;
+    padding-top: 4em;
+    color: rgb(228, 228, 232);
+    animation: colo;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+@keyframes colo{
+    0%{color: blueviolet;}
+    20%{color:cadetblue;}
+    50%{color: chartreuse;}
+}
+@font-face {
+    font-family: style1;
+    src: url("CreationFrescoesDemoRegular-m2MMv.otf");
+}

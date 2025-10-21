@@ -9,7 +9,7 @@ html,body{
 }
 .box1{
     text-transform: capitalize;
-    padding-left: 2em;
+    
 }
 h3{
     color: #3B0119;
@@ -30,5 +30,14 @@ button{
     background-color: #2378C1;
     border: none;
     border-radius: 2em;
+    animation: change;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
     
+}
+@keyframes change{
+    0%{background-color: rgb(10, 182, 188);}
+    25%{background-color: rgb(147, 175, 20);}
+    50%{background-color: rgb(44, 199, 17);}
+    75%{transform: scale(1.1);}
 }

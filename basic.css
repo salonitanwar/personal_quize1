@@ -1,0 +1,16 @@
+#saloni{
+    background-image: url("https://tse2.mm.bing.net/th/id/OIP.8KoxxL1LReNAjJKB4RUd6QHaG5?pid=Api&P=0&h=180");
+    width: 10em;
+}
+#sln{
+  width: 10em;
+  height: 10em;
+  background-color: brown;
+  animation: saloni;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes saloni{
+    0%{background-color: blue;top:50em;}
+    25%{background-color: rgb(110, 149, 110);}
+}

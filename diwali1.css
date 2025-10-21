@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 50em;
+    height: 100em;
+}
+#diwali{
+    width: 60em;
+    height: 50em;
+    background: linear-gradient(to right,#D1D5A2,#99c8c9);
+   
+   
+}
+#page1{
+    width: 45em;
+    height: 20em;
+    background-image: url("https://i.pinimg.com/736x/66/cc/58/66cc5844129fcdb31659ae0a6e8f6e99.jpg");
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    left:6em;
+    top:2em;
+    
+}
+#img1>img{
+   width: 25em;
+   height: 25em;
+   position: absolute;
+   left: 20em;
+   background-size: cover;
+   background-position: center;
+   animation: trans;
+   animation-iteration-count: infinite;
+   animation-duration: 2s;
+}
+@keyframes trans {
+    from{transform: translatex(35em);}
+    
+    
+}
+.name,h1{
+    background-image:url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExdG1qaTdreW5ueWozbW9qOWRwNWcxeXc2bWo0a2t5eGY2NnRoYmlkNiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/kolvlRnXh8Jj2/giphy.gif");
+    background-clip: text;
+    color: transparent;
+    text-transform:capitalize;
+    background-size: cover;
+    background-position: center;
+    font-size: 2em;
+    position: absolute;
+    left: 1rem;
+    top:1em;
+    animation: h2; 
+    animation-duration:2s;
+    animation-iteration-count: infinite;
+}
+@keyframes h2{
+    from{transform: scale(1.2);}
+}
+.diwali2>img{
+      width: 10em;
+      
+      position: absolute;
+      top:10em;
+      left: 19em;
+      animation: ds;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+}
+@keyframes ds{
+   from{transform: translatey(25em);}
+}
+.diwali3{
+    height: 5em;
+    width: 5em;
+    margin-left: 1em;
+    background-position: center;
+    background-size: cover;
+    background-image: url("https://www.pngplay.com/wp-content/uploads/6/Firecrackers-Vector-PNG-HD-Quality.png");
+    animation: colors;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+}
+@keyframes colors{
+    0%{background-image: url("https://static.vecteezy.com/system/resources/previews/022/680/452/original/diwali-diya-festivals-in-india-gold-deepavali-lamp-free-png.png");}
+    25%{background-image: url("https://png.pngtree.com/png-vector/20221014/ourmid/pngtree-gradient-hindi-calligraphy-of-shubh-diwali-with-diya-and-mandala-creative-png-image_6321700.png");}
+    50%{background-image: url("https://png.pngtree.com/png-clipart/20231109/original/pngtree-marigold-flower-rangoli-design-for-diwali-festival-png-image_13523403.png");}
+}
